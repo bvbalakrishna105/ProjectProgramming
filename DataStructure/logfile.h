@@ -10,6 +10,7 @@ class logFile : public QObject
 public:
     explicit logFile(QObject *parent = 0);
     void displayLogFile();
+    void setPath();
 
 signals:
 
